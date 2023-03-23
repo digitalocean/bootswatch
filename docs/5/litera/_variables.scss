@@ -1,6 +1,7 @@
 // Litera 5.2.2
 // Bootswatch
 
+$enable-dark-mode: true;
 $theme: "litera" !default;
 
 //
@@ -31,7 +32,8 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
 $primary:       $blue !default;
-$secondary:     $gray-500 !default;
+$secondary:     blue;
+$secondary-dark: orange;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -55,10 +57,9 @@ $font-family-serif:           Georgia, Cambria, "Times New Roman", Times, serif 
 $font-size-base:              1.1rem !default;
 $headings-font-weight:        700 !default;
 
+$border-color:          rgba(0, 0, 0, .1) !default;
+
 // Tables
-
-$table-border-color:          rgba(0, 0, 0, .1) !default;
-
 $table-bg-scale:              0% !default;
 
 // Buttons
@@ -75,7 +76,6 @@ $btn-border-radius-sm:        .844em !default;
 
 // Forms
 
-$input-border-color:                    rgba(0, 0, 0, .1) !default;
 $input-group-addon-bg:                  $gray-200 !default !default;
 
 // Navbar
